@@ -11,7 +11,6 @@ const App = () => {
     neutral: 0,
     bad: 0,
   })
-
   const handlBtn = name => {
     setVotes(prevState => {
       const value = prevState[name]
